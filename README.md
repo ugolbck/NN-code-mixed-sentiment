@@ -12,4 +12,12 @@ We try and implement different tools and methods that would theoretically improv
 
 ## Model definition
 
+### Convolutional neural network
+
+### Attention-based recurrent neural network
+
 ## Evaluation
+
+- Test set: 1500 sentences (10%)
+- Precision, recall, F1 (scikit-learn)
+- Confusion matrix (matplotlib)
