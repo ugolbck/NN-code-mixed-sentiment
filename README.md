@@ -8,6 +8,6 @@
 
 ---------
 
-Best model: `biLSTM w/ character embeddings and averages FastText embeddings` 
+Best model: `CNN w/ character embeddings and averages FastText embeddings` 
 
 Best performance: `51% F1`
