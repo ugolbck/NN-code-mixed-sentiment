@@ -1,23 +1,13 @@
-# Convolutional NN for sentiment analysis of Spanglish text
+# Neural Networks for Sentiment Analysis of Code-Mixed Spanglish Tweets
 
--- Course: Research & Development (Autumn 2019), Uppsala university --
+* Course: **Research & Development (Autumn 2019), Uppsala university**
 
--- Data set: SentiMix Spanglish 2019 --
+* Data set: **SentiMix Spanglish 2019**
 
-We try and implement different tools and methods that would theoretically improve sentiment classification
+* Paper: [right here](https://github.com/ugolbck/NN-code-mixed-sentiment/blob/master/CodeMixed_NN_Paper.pdf)
 
-## Preprocessing
+---------
 
-## Joint character-word embeddings
+Best model: `biLSTM w/ character embeddings and averages FastText embeddings` 
 
-## Model definition
-
-### Convolutional neural network
-
-### Attention-based recurrent neural network
-
-## Evaluation
-
-- Test set: 1500 sentences (10%)
-- Precision, recall, F1 (scikit-learn)
-- Confusion matrix (matplotlib)
+Best performance: `51% F1`
